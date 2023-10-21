@@ -1,0 +1,82 @@
+{
+	"Loaded": true,
+	"Name": "Old Gwynyvyra's Farm",
+	"RegionName": "Betony",
+	"HasDungeon": false,
+	"MapTableData": {
+		"MapId": 258111,
+		"Latitude": 30848,
+		"Longitude": 14208,
+		"LocationType": "HomeFarms",
+		"DungeonType": "NoDungeon",
+		"Discovered": true,
+		"Key": 0
+	},
+	"Exterior": {
+		"RecordElement": {
+			"Header": {
+				"X": 3637248,
+				"Y": 7897088,
+				"IsExterior": 32768,
+				"Unknown2": 0,
+				"LocationId": 40005,
+				"IsInterior": 0,
+				"ExteriorLocationId": 0,
+				"LocationName": "Old Gwynyvyra's Farm"
+			}
+		},
+		"BuildingCount": 1,
+		"Buildings": [
+			{
+				"NameSeed": 40005,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 12,
+				"Sector": 0,
+				"LocationId": 40005
+			}
+		],
+		"ExteriorData": {
+			"AnotherName": "Old Gwynyvyra's Farm",
+			"MapId": 258111,
+			"LocationId": 40005,
+			"Width": 1,
+			"Height": 1,
+			"PortTownAndUnknown": 0,
+			"BlockNames": [
+				"FARMAA08F.RMB"
+			]
+		}
+	},
+	"Dungeon": {
+		"RecordElement": {
+			"Header": {
+				"X": 3637248,
+				"Y": 7897088,
+				"IsExterior": 0,
+				"Unknown2": 0,
+				"LocationId": 40006,
+				"IsInterior": 0,
+				"ExteriorLocationId": 40005,
+				"LocationName": "Old Gwynyvyra's Farm"
+			}
+		},
+		"Header": {
+			"BlockCount": 0
+		},
+		"Blocks": null
+	},
+	"Climate": {
+		"WorldClimate": 231,
+		"ClimateType": "Temperate",
+		"NatureSet": "Nature_TemperateWoodland",
+		"GroundArchive": 302,
+		"NatureArchive": 504,
+		"SkyBase": 16,
+		"People": "Breton",
+		"Names": null
+	},
+	"Politic": 147,
+	"RegionIndex": 19,
+	"LocationIndex": 0
+}

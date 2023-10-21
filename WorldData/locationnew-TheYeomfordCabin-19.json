@@ -1,0 +1,82 @@
+{
+	"Loaded": true,
+	"Name": "The Yeomford Cabin",
+	"RegionName": "Betony",
+	"HasDungeon": false,
+	"MapTableData": {
+		"MapId": 259122,
+		"Latitude": 30720,
+		"Longitude": 15616,
+		"LocationType": "HomePoor",
+		"DungeonType": "NoDungeon",
+		"Discovered": true,
+		"Key": 0
+	},
+	"Exterior": {
+		"RecordElement": {
+			"Header": {
+				"X": 3997696,
+				"Y": 7864320,
+				"IsExterior": 32768,
+				"Unknown2": 0,
+				"LocationId": 40001,
+				"IsInterior": 0,
+				"ExteriorLocationId": 0,
+				"LocationName": "The Yeomford Cabin"
+			}
+		},
+		"BuildingCount": 1,
+		"Buildings": [
+			{
+				"NameSeed": 40001,
+				"FactionId": 0,
+				"BuildingType": "House3",
+				"Quality": 3,
+				"Sector": 0,
+				"LocationId": 40001
+			}
+		],
+		"ExteriorData": {
+			"AnotherName": "The Yeomford Cabin",
+			"MapId": 259122,
+			"LocationId": 40001,
+			"Width": 1,
+			"Height": 1,
+			"PortTownAndUnknown": 0,
+			"BlockNames": [
+				"SHCKAA00.RMB"
+			]
+		}
+	},
+	"Dungeon": {
+		"RecordElement": {
+			"Header": {
+				"X": 3997696,
+				"Y": 7864320,
+				"IsExterior": 0,
+				"Unknown2": 0,
+				"LocationId": 40002,
+				"IsInterior": 0,
+				"ExteriorLocationId": 40001,
+				"LocationName": "The Yeomford Cabin"
+			}
+		},
+		"Header": {
+			"BlockCount": 0
+		},
+		"Blocks": null
+	},
+	"Climate": {
+		"WorldClimate": 223,
+        "ClimateType": "Temperate",
+		"NatureSet": "Nature_TemperateWoodland",
+		"GroundArchive": 402,
+		"NatureArchive": 504,
+		"SkyBase": 24,
+		"People": "Breton",
+		"Names": null
+	},
+	"Politic": 64,
+	"RegionIndex": 19,
+	"LocationIndex": 0
+}

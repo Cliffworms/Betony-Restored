@@ -1,0 +1,235 @@
+{
+	"Loaded": true,
+	"Name": "Waterborne",
+	"RegionName": "Betony",
+	"HasDungeon": false,
+	"MapTableData": {
+		"MapId": 253119,
+		"Latitude": 31488,
+		"Longitude": 15232,
+		"LocationType": "TownVillage",
+		"DungeonType": "NoDungeon",
+		"Discovered": true,
+		"Key": 16777472
+	},
+	"Exterior": {
+		"RecordElement": {
+			"Header": {
+				"X": 3899392,
+				"Y": 8060928,
+				"IsExterior": 32768,
+				"Unknown2": 0,
+				"LocationId": 40016,
+				"IsInterior": 0,
+				"ExteriorLocationId": 0,
+				"LocationName": "Waterborne"
+			}
+		},
+		"BuildingCount": 20,
+		"Buildings": [
+			{
+				"NameSeed": 40116,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 5,
+				"Sector": 100,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40117,
+				"FactionId": 0,
+				"BuildingType": "House3",
+				"Quality": 6,
+				"Sector": 101,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40118,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 5,
+				"Sector": 102,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40119,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 4,
+				"Sector": 103,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40120,
+				"FactionId": 0,
+				"BuildingType": "House3",
+				"Quality": 6,
+				"Sector": 104,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40121,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 5,
+				"Sector": 105,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40122,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 7,
+				"Sector": 106,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40123,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 4,
+				"Sector": 107,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40124,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 6,
+				"Sector": 108,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40125,
+				"FactionId": 510,
+				"BuildingType": "Tavern",
+				"Quality": 4,
+				"Sector": 109,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40126,
+				"FactionId": 510,
+				"BuildingType": "GeneralStore",
+				"Quality": 11,
+				"Sector": 110,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40127,
+				"FactionId": 510,
+				"BuildingType": "GeneralStore",
+				"Quality": 8,
+				"Sector": 111,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40016,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 8,
+				"Sector": 0,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40017,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 6,
+				"Sector": 1,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40018,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 8,
+				"Sector": 2,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40019,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 4,
+				"Sector": 3,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40020,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 8,
+				"Sector": 4,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40021,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 12,
+				"Sector": 5,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40022,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 16,
+				"Sector": 6,
+				"LocationId": 40016
+			},
+			{
+				"NameSeed": 40023,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 4,
+				"Sector": 7,
+				"LocationId": 40016
+			}
+		],
+		"ExteriorData": {
+			"AnotherName": "Waterborne",
+			"MapId": 253119,
+			"LocationId": 40016,
+			"Width": 1,
+			"Height": 2,
+			"PortTownAndUnknown": 0,
+			"BlockNames": [
+				"RESIAS07.RMB",
+				"GENRAS01.RMB"
+			]
+		}
+	},
+	"Dungeon": {
+		"RecordElement": {
+			"Header": {
+				"X": 3899392,
+				"Y": 8060928,
+				"IsExterior": 0,
+				"Unknown2": 0,
+				"LocationId": 40017,
+				"IsInterior": 0,
+				"ExteriorLocationId": 40016,
+				"LocationName": "Waterborne"
+			}
+		},
+		"Header": {
+			"BlockCount": 0
+		},
+		"Blocks": null
+	},
+	"Climate": {
+		"WorldClimate": 223,
+		"ClimateType": "Temperate",
+		"NatureSet": "Nature_TemperateWoodland",
+		"GroundArchive": 402,
+		"NatureArchive": 504,
+		"SkyBase": 24,
+		"People": "Breton",
+		"Names": null
+	},
+	"Politic": 64,
+	"RegionIndex": 19,
+	"LocationIndex": 0
+}

@@ -1,0 +1,186 @@
+{
+	"Loaded": true,
+	"Name": "The Tower of Ashly",
+	"RegionName": "Betony",
+	"HasDungeon": true,
+	"MapTableData": {
+		"MapId": 263115,
+		"Latitude": 30208,
+		"Longitude": 14720,
+		"LocationType": "DungeonKeep",
+		"DungeonType": "Coven",
+		"Discovered": false,
+		"Key": 0
+	},
+	"Exterior": {
+		"RecordElement": {
+			"Header": {
+				"X": 3768320,
+				"Y": 7733248,
+				"IsExterior": 32768,
+				"Unknown2": 0,
+				"LocationId": 40019,
+				"IsInterior": 0,
+				"ExteriorLocationId": 0,
+				"LocationName": "The Tower of Ashly"
+			}
+		},
+		"BuildingCount": 0,
+		"Buildings": [],
+		"ExteriorData": {
+			"AnotherName": "The Tower of Ashly",
+			"MapId": 263115,
+			"LocationId": 40019,
+			"Width": 1,
+			"Height": 1,
+			"PortTownAndUnknown": 0,
+			"BlockNames": [
+				"CASTAA08.RMB"
+			]
+		}
+	},
+	"Dungeon": {
+		"RecordElement": {
+			"Header": {
+				"X": 3768320,
+				"Y": 7733248,
+				"IsExterior": 0,
+				"Unknown2": 5,
+				"LocationId": 40020,
+				"IsInterior": 1,
+				"ExteriorLocationId": 40019,
+				"LocationName": "The Tower of Ashly"
+			}
+		},
+		"Header": {
+			"BlockCount": 14
+		},
+		"Blocks": [
+			{
+				"X": 0,
+				"Z": 3,
+				"IsStartingBlock": false,
+				"BlockName": "B0000014.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": -1,
+				"Z": 2,
+				"IsStartingBlock": false,
+				"BlockName": "B0000005.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 0,
+				"Z": 2,
+				"IsStartingBlock": false,
+				"BlockName": "N0000087.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 1,
+				"Z": 2,
+				"IsStartingBlock": false,
+				"BlockName": "B0000013.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": -1,
+				"Z": 1,
+				"IsStartingBlock": false,
+				"BlockName": "B0000006.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 0,
+				"Z": 1,
+				"IsStartingBlock": false,
+				"BlockName": "N0000068.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 1,
+				"Z": 1,
+				"IsStartingBlock": false,
+				"BlockName": "B0000012.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": -1,
+				"Z": 0,
+				"IsStartingBlock": false,
+				"BlockName": "B0000007.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 0,
+				"Z": 0,
+				"IsStartingBlock": true,
+				"BlockName": "N0000008.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 1,
+				"Z": 0,
+				"IsStartingBlock": false,
+				"BlockName": "B0000011.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": -1,
+				"Z": -1,
+				"IsStartingBlock": false,
+				"BlockName": "B0000008.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 0,
+				"Z": -1,
+				"IsStartingBlock": false,
+				"BlockName": "N0000020.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 1,
+				"Z": -1,
+				"IsStartingBlock": false,
+				"BlockName": "B0000010.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 0,
+				"Z": -2,
+				"IsStartingBlock": false,
+				"BlockName": "B0000009.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			}
+		]
+	},
+	"Climate": {
+		"WorldClimate": 231,
+		"ClimateType": "Temperate",
+		"NatureSet": "Nature_TemperateWoodland",
+		"GroundArchive": 302,
+		"NatureArchive": 504,
+		"SkyBase": 16,
+		"People": "Breton",
+		"Names": null
+	},
+	"Politic": 147,
+	"RegionIndex": 19,
+	"LocationIndex": 0
+}

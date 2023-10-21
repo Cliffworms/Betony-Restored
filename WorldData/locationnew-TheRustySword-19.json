@@ -1,0 +1,162 @@
+{
+	"Loaded": true,
+	"Name": "The Rusty Sword Hostel",
+	"RegionName": "Betony",
+	"HasDungeon": false,
+	"MapTableData": {
+		"MapId": 258117,
+		"Latitude": 30848,
+		"Longitude": 14976,
+		"LocationType": "Tavern",
+		"DungeonType": "NoDungeon",
+		"Discovered": true,
+		"Key": 256
+	},
+	"Exterior": {
+		"RecordElement": {
+			"Header": {
+				"X": 3833856,
+				"Y": 7897088,
+				"IsExterior": 32768,
+				"Unknown2": 0,
+				"LocationId": 40011,
+				"IsInterior": 0,
+				"ExteriorLocationId": 0,
+				"LocationName": "The Rusty Sword Hostel"
+			}
+		},
+		"BuildingCount": 11,
+		"Buildings": [
+			{
+				"NameSeed": 40011,
+				"FactionId": 510,
+				"BuildingType": "Tavern",
+				"Quality": 10,
+				"Sector": 0,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40012,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 10,
+				"Sector": 1,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40013,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 8,
+				"Sector": 2,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40014,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 4,
+				"Sector": 3,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40015,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 6,
+				"Sector": 4,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40016,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 8,
+				"Sector": 5,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40017,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 4,
+				"Sector": 6,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40018,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 8,
+				"Sector": 7,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40019,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 4,
+				"Sector": 8,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40020,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 6,
+				"Sector": 9,
+				"LocationId": 40011
+			},
+			{
+				"NameSeed": 40021,
+				"FactionId": 0,
+				"BuildingType": "House2",
+				"Quality": 8,
+				"Sector": 10,
+				"LocationId": 40011
+			}
+		],
+		"ExteriorData": {
+			"AnotherName": "The Rusty Sword Hostel",
+			"MapId": 258117,
+			"LocationId": 40011,
+			"Width": 1,
+			"Height": 1,
+			"PortTownAndUnknown": 0,
+			"BlockNames": [
+				"TVRNAS03.RMB"
+			]
+		}
+	},
+	"Dungeon": {
+		"RecordElement": {
+			"Header": {
+				"X": 3833856,
+				"Y": 7897088,
+				"IsExterior": 0,
+				"Unknown2": 0,
+				"LocationId": 40012,
+				"IsInterior": 0,
+				"ExteriorLocationId": 40011,
+				"LocationName": "The Rusty Sword Hostel"
+			}
+		},
+		"Header": {
+			"BlockCount": 0
+		},
+		"Blocks": null
+	},
+	"Climate": {
+		"WorldClimate": 231,
+		"ClimateType": "Temperate",
+		"NatureSet": "Nature_TemperateWoodland",
+		"GroundArchive": 302,
+		"NatureArchive": 504,
+		"SkyBase": 16,
+		"People": "Breton",
+		"Names": null
+	},
+	"Politic": 147,
+	"RegionIndex": 19,
+	"LocationIndex": 0
+}

@@ -1,0 +1,138 @@
+{
+	"Loaded": true,
+	"Name": "The Kingcroft Crypts",
+	"RegionName": "Betony",
+	"HasDungeon": true,
+	"MapTableData": {
+		"MapId": 252117,
+		"Latitude": 31616,
+		"Longitude": 14976,
+		"LocationType": "DungeonRuin",
+		"DungeonType": "Crypt",
+		"Discovered": false,
+		"Key": 0
+	},
+	"Exterior": {
+		"RecordElement": {
+			"Header": {
+				"X": 3833856,
+				"Y": 8093696,
+				"IsExterior": 32768,
+				"Unknown2": 0,
+				"LocationId": 40022,
+				"IsInterior": 0,
+				"ExteriorLocationId": 0,
+				"LocationName": "The Kingcroft Crypts"
+			}
+		},
+		"BuildingCount": 0,
+		"Buildings": [],
+		"ExteriorData": {
+			"AnotherName": "The Kingcroft Crypts",
+			"MapId": 252117,
+			"LocationId": 40022,
+			"Width": 1,
+			"Height": 1,
+			"PortTownAndUnknown": 0,
+			"BlockNames": [
+				"GRVEAS12.RMB"
+			]
+		}
+	},
+	"Dungeon": {
+		"RecordElement": {
+			"Header": {
+				"X": 3833856,
+				"Y": 8093696,
+				"IsExterior": 0,
+				"Unknown2": 5,
+				"LocationId": 40023,
+				"IsInterior": 1,
+				"ExteriorLocationId": 40022,
+				"LocationName": "The Kingcroft Crypts"
+			}
+		},
+		"Header": {
+			"BlockCount": 8
+		},
+		"Blocks": [
+			{
+				"X": 0,
+				"Z": 1,
+				"IsStartingBlock": false,
+				"BlockName": "B0000006.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": -1,
+				"Z": 0,
+				"IsStartingBlock": false,
+				"BlockName": "B0000003.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 0,
+				"Z": 0,
+				"IsStartingBlock": true,
+				"BlockName": "N0000082.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 1,
+				"Z": 0,
+				"IsStartingBlock": false,
+				"BlockName": "B0000008.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": -1,
+				"Z": -1,
+				"IsStartingBlock": false,
+				"BlockName": "B0000001.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 0,
+				"Z": -1,
+				"IsStartingBlock": false,
+				"BlockName": "N0000019.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 1,
+				"Z": -1,
+				"IsStartingBlock": false,
+				"BlockName": "B0000002.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			},
+			{
+				"X": 0,
+				"Z": -2,
+				"IsStartingBlock": false,
+				"BlockName": "B0000001.RDB",
+				"WaterLevel": 0,
+				"CastleBlock": false
+			}
+		]
+	},
+	"Climate": {
+		"WorldClimate": 231,
+		"ClimateType": "Temperate",
+		"NatureSet": "Nature_TemperateWoodland",
+		"GroundArchive": 302,
+		"NatureArchive": 504,
+		"SkyBase": 16,
+		"People": "Breton",
+		"Names": null
+	},
+	"Politic": 147,
+	"RegionIndex": 19,
+	"LocationIndex": 0
+}

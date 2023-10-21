@@ -1,0 +1,82 @@
+{
+	"Loaded": true,
+	"Name": "The Old Hawking Shack",
+	"RegionName": "Betony",
+	"HasDungeon": false,
+	"MapTableData": {
+		"MapId": 263110,
+		"Latitude": 30208,
+		"Longitude": 14080,
+		"LocationType": "HomePoor",
+		"DungeonType": "NoDungeon",
+		"Discovered": true,
+		"Key": 0
+	},
+	"Exterior": {
+		"RecordElement": {
+			"Header": {
+				"X": 3604480,
+				"Y": 7733248,
+				"IsExterior": 32768,
+				"Unknown2": 0,
+				"LocationId": 40002,
+				"IsInterior": 0,
+				"ExteriorLocationId": 0,
+				"LocationName": "The Old Hawking Shack"
+			}
+		},
+		"BuildingCount": 1,
+		"Buildings": [
+			{
+				"NameSeed": 40002,
+				"FactionId": 0,
+				"BuildingType": "House3",
+				"Quality": 3,
+				"Sector": 0,
+				"LocationId": 40002
+			}
+		],
+		"ExteriorData": {
+			"AnotherName": "The Old Hawking Shack",
+			"MapId": 263110,
+			"LocationId": 40002,
+			"Width": 1,
+			"Height": 1,
+			"PortTownAndUnknown": 0,
+			"BlockNames": [
+				"SHCKAA00.RMB"
+			]
+		}
+	},
+	"Dungeon": {
+		"RecordElement": {
+			"Header": {
+				"X": 3604480,
+				"Y": 7733248,
+				"IsExterior": 0,
+				"Unknown2": 0,
+				"LocationId": 40003,
+				"IsInterior": 0,
+				"ExteriorLocationId": 40002,
+				"LocationName": "The Old Hawking Shack"
+			}
+		},
+		"Header": {
+			"BlockCount": 0
+		},
+		"Blocks": null
+	},
+	"Climate": {
+		"WorldClimate": 223,
+        "ClimateType": "Temperate",
+		"NatureSet": "Nature_TemperateWoodland",
+		"GroundArchive": 402,
+		"NatureArchive": 504,
+		"SkyBase": 24,
+		"People": "Breton",
+		"Names": null
+	},
+	"Politic": 64,
+	"RegionIndex": 19,
+	"LocationIndex": 0
+}
