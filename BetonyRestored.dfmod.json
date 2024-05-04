@@ -1,6 +1,6 @@
 {
     "ModTitle": "Betony Restored",
-    "ModVersion": "1.01",
+    "ModVersion": "1.1.0",
     "ModAuthor": "Cliffworms",
     "DFUnity_Version": "1.0.0",
     "ModDescription": "Adds 25 locations from the Daggerfall Betony demo, including Betony City. ",
@@ -149,7 +149,17 @@
         "Assets/Game/Mods/BetonyRestored/WorldData/locationnew-Chestercester-19.json",
         "Assets/Game/Mods/BetonyRestored/WorldData/FARMAA08F.RMB.json",
         "Assets/Game/Mods/BetonyRestored/Scripts/BetonyRestoredMod.cs",
-        "Assets/Game/Mods/BetonyRestored/BetonyRestored.dfmod.json"
+        "Assets/Game/Mods/BetonyRestored/BetonyRestored.dfmod.json",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_15-0.png",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_16-0.png",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_13-0.png",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_14-0.png",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_17-0.xml",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_18-0.PNG",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_18-0.xml",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_17-0.PNG",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_20-0.png",
+        "Assets/Game/Mods/BetonyRestored/Textures/1210_19-0.png"
     ],
     "Dependencies": [
         {
@@ -163,6 +173,12 @@
             "IsOptional": false,
             "IsPeer": false,
             "Version": "0.5.0"
+        },
+        {
+            "Name": "rmb resource pack",
+            "IsOptional": false,
+            "IsPeer": false,
+            "Version": "0.1.4"
         }
     ]
 }

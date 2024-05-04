@@ -6764,6 +6764,39 @@
                             "XRotation": 0,
                             "YRotation": -512,
                             "ZRotation": 0
+                        },
+                        {
+                            "ModelId": "52990",
+                            "ModelIdNum": 52990,
+                            "ObjectType": 4,
+                            "XPos": -230,
+                            "YPos": -737,
+                            "ZPos": 118,
+                            "XRotation": 0,
+                            "YRotation": 0,
+                            "ZRotation": 0
+                        },
+                        {
+                            "ModelId": "45076",
+                            "ModelIdNum": 45076,
+                            "ObjectType": 4,
+                            "XPos": -229,
+                            "YPos": -514,
+                            "ZPos": 115,
+                            "XRotation": 0,
+                            "YRotation": 0,
+                            "ZRotation": 0
+                        },
+                        {
+                            "ModelId": "45077",
+                            "ModelIdNum": 45077,
+                            "ObjectType": 4,
+                            "XPos": -229,
+                            "YPos": -628,
+                            "ZPos": 115,
+                            "XRotation": 0,
+                            "YRotation": 0,
+                            "ZRotation": 0
                         }
                     ],
                     "BlockFlatObjectRecords": [
@@ -7120,6 +7153,61 @@
                             "XScale": 1.4,
                             "YScale": 1.4,
                             "ZScale": 1.4,
+                            "XRotation": 0,
+                            "YRotation": 0,
+                            "ZRotation": 0
+                        },
+                        {
+                            "ModelId": "45076",
+                            "ModelIdNum": 45076,
+                            "ObjectType": 0,
+                            "XPos": -242,
+                            "YPos": -39,
+                            "ZPos": 114,
+                            "XRotation": 0,
+                            "YRotation": 0,
+                            "ZRotation": 0
+                        },
+                        {
+                            "ModelId": "45076",
+                            "ModelIdNum": 45076,
+                            "ObjectType": 0,
+                            "XPos": -242,
+                            "YPos": -153,
+                            "ZPos": 114,
+                            "XRotation": 0,
+                            "YRotation": 0,
+                            "ZRotation": 0
+                        },
+                        {
+                            "ModelId": "45076",
+                            "ModelIdNum": 45076,
+                            "ObjectType": 0,
+                            "XPos": -242,
+                            "YPos": -267,
+                            "ZPos": 114,
+                            "XRotation": 0,
+                            "YRotation": 0,
+                            "ZRotation": 0
+                        },
+                        {
+                            "ModelId": "45076",
+                            "ModelIdNum": 45076,
+                            "ObjectType": 0,
+                            "XPos": -242,
+                            "YPos": -381,
+                            "ZPos": 114,
+                            "XRotation": 0,
+                            "YRotation": 0,
+                            "ZRotation": 0
+                        },
+                        {
+                            "ModelId": "45076",
+                            "ModelIdNum": 45076,
+                            "ObjectType": 0,
+                            "XPos": -242,
+                            "YPos": -495,
+                            "ZPos": 114,
                             "XRotation": 0,
                             "YRotation": 0,
                             "ZRotation": 0

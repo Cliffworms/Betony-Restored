@@ -1,12 +1,14 @@
 // Project:         BetonyRestored for Daggerfall Unity (http://www.dfworkshop.net)
 // Copyright:       Copyright (C) 2023 Cliffworms
 // License:         MIT License (http://www.opensource.org/licenses/mit-license.php)
-// Author:          Hazelnut
+// Author:          Cliffworms
 
 using UnityEngine;
 using DaggerfallConnect;
+using DaggerfallConnect.Arena2;
 using DaggerfallWorkshop;
 using DaggerfallWorkshop.Game;
+using DaggerfallWorkshop.Game.Guilds;
 using DaggerfallWorkshop.Game.Utility.ModSupport;
 using DaggerfallWorkshop.Game.Weather;
 
@@ -43,7 +45,31 @@ namespace BetonyRestored
             WorldTime.OnDawn += UpdateExteriorNPCs;
             WorldTime.OnDusk += UpdateExteriorNPCs;
 
+            if (!RegisterFactionIds())
+            {
+                Debug.LogWarning("BetonyRestored: Failed to register faction ids.");
+            }
+
             Debug.Log("Finished mod init: BetonyRestored");
+        }
+
+        private static bool RegisterFactionIds()
+        {
+            return FactionFile.RegisterCustomFaction(1432, new FactionFile.FactionData()
+            {
+                id = 1432,
+                parent = 203,
+                type = 4,
+                name = "Lord Mogref",
+                summon = -1,
+                region = 20,
+                power = 18,
+                face = 405,
+                race = 3,
+                sgroup = 3,
+                ggroup = -1,
+                children = null
+            });
         }
 
         static void UpdateExteriorNPCs_OnEnterLocationRect(DFLocation location)
